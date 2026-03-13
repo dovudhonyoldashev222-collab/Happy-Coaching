@@ -8,11 +8,6 @@ import sessionImg from '/image1.png';
 import transformImg from '/frame1.png';
 import TransformSection from './components/TransformSection';
 
-const WavyLine = () => (
-  <svg width="40" height="12" viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: '20px' }}>
-    <path d="M0 6C2.5 6 5 2 7.5 2C10 2 12.5 6 15 6C17.5 6 20 10 22.5 10C25 10 27.5 6 30 6C32.5 6 35 2 37.5 2C40 2 42.5 6 45 6" stroke="#20AD96" strokeWidth="2" strokeLinecap="round" />
-  </svg>
-);
 
 function App() {
   const sessionImages = ['/image3.png'];
@@ -68,10 +63,7 @@ function App() {
       <header className="header">
         <div className="container header-inner">
           <div className="logo">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 2L2 9L16 16L30 9L16 2Z" fill="#20AD96" />
-              <path d="M2 23L16 30L30 23V9L16 16L2 9V23Z" fill="#20AD96" fillOpacity="0.5" />
-            </svg>
+           
             Happy <span>Coaching</span>
           </div>
           <nav className="nav-links">
