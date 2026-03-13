@@ -188,7 +188,7 @@ function App() {
       <button className="btn-primary">Book now</button>
     </div>
     <div className="session-img">
-      {/* Bu yerda eski {sessionImages[currentSessionImage]} o'rniga rasm yo'lini yozdik */}
+      {/* Bu yerda  {sessionImages[currentSessionImage]} rasm  */}
       <img src="/image (5).png" alt="Online Session" />
     </div>
   </div>
